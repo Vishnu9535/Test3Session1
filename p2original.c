@@ -1,10 +1,17 @@
 #include<stdio.h>
-#include<string.h>
-typedef struct fraction{
+typedef struct _fraction{
   int num;
   int den;
-  struct fraction f1,f2,f3;
-  f1=num/den;
+}fraction;
+fraction input_fraction(){
+fraction f;
+  printf("Enter the numerator and denomenator:");
+  scanf("%d %d",&f.num,&f.den);
+  return f;
+}
+fraction largest_fraction(fraction f1,fraction f2,fraction f3)
+{
+  
+}
 
-}fr;
   
