@@ -33,12 +33,8 @@ float evaluate_polynomial(int n, float a[n], float x)
  return d; 
 }
 void out_put(int n, float a[n], float x, float result){
-  printf("The value of ");
-    for(int i=0;i<n;i++){
-        printf("%.0f +",a[i]);
-    }
-    printf("%.0f",a[n]);
-    printf("is %.2f",result);
+  printf("The value of the polynomial is %f",result);
+    
 }
 int main(){
     int n;
