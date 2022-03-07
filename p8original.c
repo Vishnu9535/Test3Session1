@@ -8,9 +8,10 @@ void input(int *n ,int *r){
 int ncr(int n,int r)
 {
     int result=1;
-    for(int i=0;i<n-r;i++)
+    for(int i=0;i<r;i++)
     {
-        result=result*(n-r+1)/n-r;
+      for(int i=1;i<=r;i++){
+      result=result*(n-i+1)/i;
     }
     return result;
 
