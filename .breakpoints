@@ -1,5 +1,43 @@
 {
   "files": {
+    "p3original.c": [
+      {
+        "id": "b93a3044-eb82-4a88-91f2-7b42454d10e8",
+        "line": 2,
+        "version": 3,
+        "index": 18
+      },
+      {
+        "id": "de1d5cd0-28af-40fd-950a-a63a62f84b47",
+        "line": 10,
+        "version": 3,
+        "index": 179
+      },
+      {
+        "id": "1d667c0d-d53f-4492-986c-f65f2abd20f8",
+        "line": 13,
+        "version": 3,
+        "index": 219
+      },
+      {
+        "id": "12c7eb88-cea2-42f1-b24c-f1a42c34bdd6",
+        "line": 14,
+        "version": 3,
+        "index": 232
+      },
+      {
+        "id": "88a7e06f-968f-4be6-b70e-a9f5ebd6c5ad",
+        "line": 17,
+        "version": 3,
+        "index": 251
+      },
+      {
+        "id": "1ccc7fd2-4739-46c1-9808-04930d9e184c",
+        "line": 19,
+        "version": 3,
+        "index": 289
+      }
+    ],
     "p4original.c": [
       {
         "id": "c6a3f39b-ff3b-49ad-8960-c5e7b2b9f5c1",
