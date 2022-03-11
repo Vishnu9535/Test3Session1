@@ -13,6 +13,7 @@ int ncr(int n,int r)
       for(int i=1;i<=r;i++){
       result=result*(n-i+1)/i;
     }
+      }
     return result;
 
 }
@@ -22,9 +23,9 @@ void output(int n,int r,float result)
 }
 int main(){
     int n,r;
-    float result;
+    int result;
     input(&n,&r);
     result=ncr(n,result);
     output(n,r,result);
-  return 0;
+    return 0;
 }
