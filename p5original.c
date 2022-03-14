@@ -11,22 +11,22 @@ void input_array(int n, int a[n])
   printf("enter the elements of array");
   for(int i=0;i<n;i++){
     scanf("%d",&a[i]);
-    
   }
 }
   int find_largest(int n, int a[n]){
-   int b;
-    b=a[0];
-    for(int i=1;i<=n;i++){
+   int b,c;
+    b=0,c=0;
+    for(int i=0;i<n;i++){
      if(a[i]>b){
        b=a[i];
+       c=i;
        }
      }
-    return b;
+    return c;
    }
 
 void out_put(int n, int a[n], int b){
-  printf("the largest element is %d",b);
+  printf("the index of the  largest element is %d",b);
 }
 int main(){
   int n,a[100],b;
